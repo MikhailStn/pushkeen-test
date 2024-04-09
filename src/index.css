@@ -40,6 +40,7 @@ body {
   align-items: center;
   row-gap: 40px;
   padding-bottom: 40px;
+  max-width: 1500px;
 }
 
 .title {
