@@ -1,0 +1,36 @@
+.card {
+  width: 20%;
+  max-height: 235px;
+  min-width: 300px;
+  max-width: 320px;
+  border-radius: 20px;
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+  box-sizing: border-box;
+  row-gap: 20px;
+  cursor: pointer;
+  transition: 0.3s;
+  box-shadow: rgba(0, 0, 0, 0.26) 0px 0px 30px;
+}
+
+.card__title {
+  margin: 0;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  font-size: 28px;
+}
+
+.card__text {
+  margin: 0;
+  font-size: 12px;
+}
+
+.card__active {
+  box-shadow: rgba(255, 0, 0, 0.733) 0px 0px 30px;
+}
+
+.card:hover {
+  background-color: #fff;
+}
